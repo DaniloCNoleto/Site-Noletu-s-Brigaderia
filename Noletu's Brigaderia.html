@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Noletu's Brigaderia</title>
+  <style>
+    /* Estilos globais */
+    body {
+      font-family: 'Times New Roman', Times, serif, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      background-image: url(C:\Users\danil\OneDrive\Documentos\Sistematização Danilo Craveiro Noleto Porg. Web\Logo Noletos.jpeg);
+      background-size: cover;
+    }
+    
+    /* Estilos para o formulário */
+  body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-color: #f2f2f2;
+    background-size: cover;
+  }
+
+  .container {
+    max-width: 4000px;
+    margin: center; /* Alinhar ao centro horizontalmente */
+    padding: 10px;
+    background-color: #278627;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-size: cover;
+  }
+
+  h2 {
+    text-align: center;
+    color: #000200;
+    margin-bottom: 20px;
+  }
+
+  form {
+    display: grid;
+    gap: 20px;
+  }
+
+  .form-group label {
+    font-weight: bold;
+  }
+
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group textarea,
+  .form-group select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .form-group textarea {
+    height: 120px;
+  }
+
+  .form-group input[type="submit"] {
+    background-color: #278627;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+
+  .form-group input[type="submit"]:hover {
+    background-color: #278627;
+  }
+    
+    /* Estilos do cabeçalho */
+    header {
+      background-color: #278627;
+      padding: 20px;
+      text-align: center;
+      color: #ffffff;
+    }
+    
+    h1 {
+      margin: 0;
+    }
+    
+    /* Estilos do conteúdo */
+    .container {
+      margin: 20px;
+      text-align: center;
+    }
+    
+    p {
+      color: #333333;
+      margin-bottom: 20px;
+    }
+    
+    .image-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 00px;
+    text-align: center;
+  }
+
+    img {
+      max-width: auto;
+      height: auto;
+      margin-bottom: 40px;
+    }
+    
+    /* Estilos do rodapé */
+    footer {
+      background-color: #278627;
+      padding: 10px;
+      text-align: center;
+      color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Noletu's Brigaderia</h1>
+  </header>
+ 
+  <div class="container">
+    <h2>Te proporciono momentos de felicidade!</h2>
+    <p>Bem-vindos à Noletu's Brigaderia! Aqui você encontra mais do que saborosos brigadeiros e sobremesas artesanais, feitos com amor e ingredientes de alta qualidade,aqui você encontra experiências! Sensações que o amor te proporciona em uma forma de doce, há uma mordida de distância de você.</p>
+  </div>
+  <div class="image-container">
+    <img src="Torta de limão.jpeg" alt="Torta de Limão bem azedinha"width="200" height="150">
+    <img src="Torta de creme brulee.jpeg" alt="Torta de Creme Brulee"width="200" height="150">
+    <img src="Bombons de morango.jpeg" alt="Bombons de morango.jpeg"width="200" height="150">
+    <img src="Brigadeiro de Bacon.jpeg" alt="Brigadeiro de Bacon"width="200" height="150">
+    <img src="Cupcake.jpeg" alt="Cupcake"width="200" height="150">
+    <img src="Torta de Coração.jpeg" alt="Torta de Coração"width="200" height="150">
+  </div>
+  
+  <div class="container">
+    <p>Experimente nossos diversos produtos e sabores e se maravilhe com cada sabor irresistível.</p>
+    <p>Oferecemos uma variedade de opções para atender a todos os gostos. Desde os produtos mais tradicionais até os mais sofisticados, porque todos tem espaço conosco.</p>
+    <p>Entre em contato conosco para fazer um pedido ou solicitar mais informações.</p>
+
+    <div class="container">
+    <h3>QUEM SOMOS</h3>
+    <p>Atualmente a Noletu's Brigaderia é uma marca familiar, composta pelo seu fundador Jessé Craveiro Noleto e sua família, apesar dessa composição acanhada, a marca é o produto de um sonho de criança e hoje proporcionamos a realização dos sonhos dos nossos cliente sempre trabalhando com excelência e vontade de entregar mais que sabores excepcionais, mas também experiências únicas a cada mordida!</p>
+    
+    <h4>Contato</h4>
+    <p>Telefone: (61) 99218-8091</p>
+    <p>Instagram: @noletusbrigaderia</p>
+  </div>
+
+  <div class="container">
+    <h2>Formulário de Inscrição</h2>
+    <form>
+      <div class="form-group">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" name="cidade" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="estado">Estado:</label>
+        <input type="text" id="estado" name="estado" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="produto">Produto de interesse:</label>
+        <textarea id="produto" name="produto" required></textarea>
+      </div>
+      
+      <div class="form-group">
+        <input type="submit" value="Enviar">
+      </div>
+    </form>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 Noletu's Brigaderia. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
